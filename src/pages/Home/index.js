@@ -20,19 +20,20 @@ export default function Home() {
   return (
     <section className="home-container grid">
       <div className="greeting-container flex">
-        
-        <div className="greeting-info">
-          <h1 className="greeting-name">Hi, i'm Joel Junior</h1>
-          <p className="greeting-description">Fullstack Developer</p>
-        </div>
+        <div>
+          <div className="greeting-info">
+            <h1 className="greeting-name">Hi, i'm Joel Junior</h1>
+            <p className="greeting-description">Fullstack Developer</p>
+          </div>
 
-        <div className="medias-links flex">
-          <a href="https://github.com/rayoack" className="icon-link">
-            <img src={Github} alt="Github" />
-          </a>
-          <a href="https://www.linkedin.com/in/joel-barbosa-jr/" className="icon-link">
-            <img src={Linkedin} alt="Github" />
-          </a>
+          <div className="medias-links flex">
+            <a href="https://github.com/rayoack" className="icon-link">
+              <img src={Github} alt="Github" />
+            </a>
+            <a href="https://www.linkedin.com/in/joel-barbosa-jr/" className="icon-link">
+              <img src={Linkedin} alt="Linkedin" />
+            </a>
+          </div>
         </div>
 
       </div>

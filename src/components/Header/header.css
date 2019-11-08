@@ -23,3 +23,11 @@ header {
   color: white;
   text-decoration: none;
 }
+
+.nav-link:hover {
+  border-bottom: 5px solid white;
+}
+
+.nav-active {
+  border-bottom: 5px solid white;
+}

@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       <div className="header-container flex">
         <img className="logo-header" src={Logo} />
-        <nav className="nav-menu">
+        <nav className="nav-menu flex">
           <Link className="nav-link" to="/">Home</Link>
           <Link className="nav-link" to="/about">About</Link>
           <Link className="nav-link" to="/skills">Skills</Link>

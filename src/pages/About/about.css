@@ -1,9 +1,10 @@
 .about-container {
   height: 100vh;
   width: 100vw;
-  background-color: #706FD3;
+  background: linear-gradient(90deg, rgba(218,40,128,1) 0%, rgba(23,182,203,1) 100%);
 
-  grid-template-columns: 50vw 50vw;
+
+  grid-template-columns: 40vw 50vw;
 }
 
 .about-photo {
@@ -19,8 +20,9 @@
 }
 
 .about-info > div {
-  padding-right: 100px;
+  padding-right: 100px; 
 }
+
 
 .about-info p {
   font-size: 20px;
@@ -29,8 +31,9 @@
 }
 
 .about-info .about-info-title{
-  font-size: 40px;
+  font-size: 50px;
   color: white;
+  margin-bottom: 30px;
 }
 
 
@@ -41,4 +44,48 @@
 
 .about-info .about-info-techs-bootom-label {
   margin-top: 20px;
+}
+
+.about-info-contacts {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 1120px) {
+  .about-container {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(218,40,128,1) 0%, rgba(23,182,203,1) 100%);
+  
+  
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+  }
+  
+  .about-photo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .about-info {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .about-info > div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+  }
+}
+
+.about-info > div > h2 {
+  align-self: center;
 }

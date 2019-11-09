@@ -1,6 +1,6 @@
 .skills-container {
   height: 100vh;
-  grid-template-columns: 40vw 60vw;
+  grid-template-columns: 50vw 50vw;
   color: white;
 }
 
@@ -14,6 +14,132 @@
 .skills-container .skills-flex-info {
   grid-column: 2/3;
   justify-content: center;
-  align-items: center;
   margin-bottom: 100px;
+  flex-direction: column;
+}
+
+.skills-container .skills-info-container {
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+}
+
+.skills-info-container {
+  width: 50vw;
+}
+
+.skills-info-container h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.skill-title-container {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+/****FLEX SKILL****/
+
+.flex-skill {
+  display: flex;
+  align-items: baseline;
+}
+
+.flex-skill h3 {
+  width: 150px;
+}
+
+.skills-info-box-left {
+  grid-column: 1/2;
+}
+
+.percent-box {
+  background: white;
+  height: 20px;
+  width: 50%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.percent-box .front-percent {
+  background: linear-gradient(90deg, rgba(218,40,128,1) 0%, rgba(23,182,203,1) 100%);
+  height: 100%;
+  width: 90%;
+  -webkit-animation: frontani 5s;
+  animation: frontani 5s;
+}
+
+@-webkit-keyframes frontani {
+  0% {width: 0;}
+  100% {width: 90%;}
+}
+
+@keyframes frontani {
+  0% {width: 0;}
+  100% {width: 90%;}
+}
+
+.percent-box .back-percent {
+  background: linear-gradient(90deg, rgba(218,40,128,1) 0%, rgba(23,182,203,1) 100%);
+  height: 100%;
+  width: 80%;
+  -webkit-animation: backani 5s;
+  animation: backani 5s;
+}
+
+@-webkit-keyframes backani {
+  0% {width: 0;}
+  100% {width: 80%;}
+}
+
+@keyframes backani {
+  0% {width: 0;}
+  100% {width: 80%;}
+}
+
+.percent-box .ui-percent {
+  background: linear-gradient(90deg, rgba(218,40,128,1) 0%, rgba(23,182,203,1) 100%);
+  height: 100%;
+  width: 75%;
+  -webkit-animation: UIani 5s;
+  animation: UIani 5s;
+}
+
+@-webkit-keyframes UIani {
+  0% {width: 0;}
+  100% {width: 75%;}
+}
+
+@keyframes UIani {
+  0% {width: 0;}
+  100% {width: 75%;}
+}
+
+@media (max-width: 1100px) {
+  .skills-container {
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+    justify-items: center;
+  }
+  
+  .skills-container .skills-flex-animation {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .skills-container .skills-flex-info {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+  }
 }

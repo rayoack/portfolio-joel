@@ -1,8 +1,6 @@
 import React from 'react';
 import Lottie from 'react-lottie';
 
-import './aniCoder.css';
-
 import Coder from '../../assets/animations/programming-edited.json';
 
 export default function AniCoder() {
@@ -18,7 +16,7 @@ export default function AniCoder() {
 
   return (
     <div className="coder-container">
-      <Lottie className="coder-animation" options={defOptions} width={400} height={400} />
+      <Lottie className="coder-animation" options={defOptions} width={600} height={600} />
     </div>
   )
 }

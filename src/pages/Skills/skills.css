@@ -1,0 +1,19 @@
+.skills-container {
+  height: 100vh;
+  grid-template-columns: 40vw 60vw;
+  color: white;
+}
+
+.skills-container .skills-flex-animation {
+  grid-column: 1/2;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.skills-container .skills-flex-info {
+  grid-column: 2/3;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}

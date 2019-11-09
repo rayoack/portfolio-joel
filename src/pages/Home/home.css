@@ -23,12 +23,6 @@
   font-size: 30px;  
 }
 
-.animation-container {
-  grid-column: 2/3;
-  background-color: #1D1D1D;
-  width: 50%;
-}
-
 .medias-links {
   margin-top: 20px;
   margin-left: -4px;

@@ -1,8 +1,8 @@
-import React/* , { useState, useEffect }  */from 'react';
+import React/*  , { useState, useEffect } */  from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-/* import LoadAnimation from './components/Loading'; */
-
+/* import LoadAnimation from './components/Loading';
+ */
 import Header from './components/Header';
 import Routes from './routes';
 
@@ -18,10 +18,8 @@ function App() {
   ) */
 
   return (
-/*     isLoading ?
-      <LoadAnimation />
-      : */
     <BrowserRouter>
+      {/* {isLoading && <LoadAnimation />} */}
       <Header />
       <Routes />
     </BrowserRouter>

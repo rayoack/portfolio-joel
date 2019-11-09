@@ -1,29 +1,20 @@
 import React from 'react';
-import Lottie from 'react-lottie';
 // import { Container } from './styles';
 import './home.css';
 
-import BoxCode from '../../assets/animations/box-code.json';
 import Github from '../../assets/icons/github.svg';
 import Linkedin from '../../assets/icons/linkedin.svg'
 
-export default function Home() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: BoxCode,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  }
+import AniSquare from '../../components/AniSquare';
 
+export default function Home() {
   return (
     <section className="home-container grid">
       <div className="greeting-container flex">
         <div>
           <div className="greeting-info">
             <h1 className="greeting-name">Hi, i'm Joel Junior</h1>
-            <p className="greeting-description">Fullstack Developer</p>
+            <p className="greeting-description">I'm a full stack developer<br />expert on React.js and Node.js</p>
           </div>
 
           <div className="medias-links flex">
@@ -35,12 +26,8 @@ export default function Home() {
             </a>
           </div>
         </div>
-
       </div>
-
-      <div className="animation-container">
-        <Lottie options={defaultOptions} />
-      </div>
+      <AniSquare />
     </section>
   );
 }

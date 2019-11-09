@@ -1,0 +1,4 @@
+.animation-container {
+  grid-column: 2/3 !important;
+  background-color: #1D1D1D;
+}

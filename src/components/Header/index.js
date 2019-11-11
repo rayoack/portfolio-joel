@@ -13,8 +13,10 @@ export default function Header() {
       <header>
         <div className="header-container flex">
           <img className="logo-header" src={Logo} />
+          
+          <Hamburguer className="hamburguer-mobile" />
+          
           <nav className="nav-menu flex">
-            <Hamburguer />
             <NavLink className="nav-link" activeClassName="nav-active" exact to="/">Home</NavLink>
             <NavLink className="nav-link" activeClassName="nav-active" to="/about">About</NavLink>
             <NavLink className="nav-link" activeClassName="nav-active" to="/skills">Skills</NavLink>

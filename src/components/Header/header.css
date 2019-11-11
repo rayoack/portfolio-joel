@@ -55,3 +55,9 @@ header {
     background: rgba(218,40,128,1);
   }
 }
+
+@media (max-width: 750px) {
+  .nav-menu {
+    visibility: hidden;
+  }
+}

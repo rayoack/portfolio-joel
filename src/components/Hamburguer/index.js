@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 // import { Container } from './styles';
 import './hamburguer.css';
-import { func } from '../../../../../../../../AppData/Local/Microsoft/TypeScript/3.6/node_modules/@types/prop-types';
 
 export default function Hamburguer() {
   const [checked, setChecked] = useState(false);

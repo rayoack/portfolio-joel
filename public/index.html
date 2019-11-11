@@ -24,15 +24,26 @@
 
     <meta
       name="description"
-      content="Olá, sou Joel Junior, desenvolvedor fullstack"
+      content="Full stack developer, expert on React.js and Node.js, check out some of my projects on the portfolio page."
     />
     <link rel="apple-touch-icon" href="logo192.png" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
  
-    <title>Joel Junior | Developer</title>
+    <title>Joel Junior | Full Stack Developer</title>
   </head>
   <body>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init(%REACT_APP_EMAILJS_USERID%);
+      })();
+    </script>
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

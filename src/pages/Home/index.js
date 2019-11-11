@@ -3,7 +3,9 @@ import React from 'react';
 import './home.css';
 
 import Github from '../../assets/icons/github.svg';
-import Linkedin from '../../assets/icons/linkedin.svg'
+import Linkedin from '../../assets/icons/linkedin.svg';
+import Whatsapp from '../../assets/icons/whatsapp.svg';
+import Email from '../../assets/icons/email.svg';
 
 import AniSquare from '../../components/AniSquare';
 
@@ -21,8 +23,17 @@ export default function Home() {
             <a href="https://github.com/rayoack" className="icon-link">
               <img src={Github} alt="Github" />
             </a>
+
             <a href="https://www.linkedin.com/in/joel-barbosa-jr/" className="icon-link">
               <img src={Linkedin} alt="Linkedin" />
+            </a>
+
+            <a href="http://bit.ly/whatsappdev" className="icon-link">
+              <img src={Whatsapp} alt="whatsapp" />
+            </a>
+            
+            <a href="mailto:joeljunior.dev@gmail.com" className="icon-link">
+              <img src={Email} alt="email" />
             </a>
           </div>
         </div>

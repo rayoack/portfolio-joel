@@ -1,6 +1,6 @@
 header {
   height: 100px;
-  background: #181818;
+  background: #0E0E0E;
 }
 
 .header-container {
@@ -30,4 +30,28 @@ header {
 
 .nav-active {
   border-bottom: 5px solid white;
+}
+
+.header-border-bottom {
+  height: 3px;
+  -webkit-animation: borderHeader 5s infinite;
+  animation: borderHeader 10s infinite;
+}
+
+@keyframes borderHeader {
+  0% {
+    background: rgba(218,40,128,1);
+  }
+  25% {
+    background: rgba(23,182,203,1);
+  }
+  50%{
+    background: rgba(218,40,128,1);
+  }
+  75% {
+    background: rgba(23,182,203,1);
+  }
+  100% {
+    background: rgba(218,40,128,1);
+  }
 }

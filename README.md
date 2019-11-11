@@ -19,8 +19,11 @@
 Este é o meu portfólio, criado com React.js.
 
 ## Requisitos do projeto: ✅
-* Home - Página com uma saudação e uma animação ao lado.
-* About - Página com um resumo sobre mim.
+
+* Todas as páginas possuem uma animação slide. para a transição entre elas.
+* Home - Página com uma saudação e uma animação feita com after effects ao lado.
+* About - Página com uma foto e um resumo sobre mim.
+* Skills - Página com uma animação feita com after effects e mostrando minhas habilidades.
 
 ## Frameworks e Tecnologias Utilizadas: 🌌
 ### Front-End: 🎨

@@ -27,10 +27,6 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/joel-barbosa-jr/" className="icon-link">
               <img src={Linkedin} alt="Linkedin" />
             </a>
-
-            <a href="http://bit.ly/whatsappdev" className="icon-link">
-              <img src={Whatsapp} alt="whatsapp" />
-            </a>
             
             <a href="mailto:joeljunior.dev@gmail.com" className="icon-link">
               <img src={Email} alt="email" />

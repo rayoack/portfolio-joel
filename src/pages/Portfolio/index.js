@@ -8,7 +8,7 @@ export default function Portfolio() {
   return (
     <section className="portfolio flex">
       <div className="portfolio-container">
-        <h2>Portfólio</h2>
+        <h2>Some projects</h2>
         <div className="projects-container grid">
           {portfolioDB.map(project => (
             <a

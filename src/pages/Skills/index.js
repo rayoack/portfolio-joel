@@ -28,9 +28,9 @@ export default function Skills() {
           </div>
 
           <div className="front-tolls flex-skill">
-            <h3 className="front-tolls-title">Tolls</h3>
+            <h3 className="front-tolls-title">Some tools:</h3>
             
-            <p className="front-tolls">CSS, Vanilla.js, React.js, Redux, Typescript, React Native</p>
+            <p className="front-tolls">React.js, React Native, Sass, Styled components</p>
           </div>
 
           <div className="skill-title-container flex-skill">
@@ -42,23 +42,23 @@ export default function Skills() {
           </div>
 
           <div className="back-tolls flex-skill">
-            <h3 className="back-tolls-title">Tolls</h3>
+            <h3 className="back-tolls-title">Some tools:</h3>
             
-            <p className="back-tolls">Node.js, Adonis.js, Express.js, MySQL, PostgreSQL, MongoDB</p>
+            <p className="back-tolls">Node.js, Ruby on Rails, Adonis.js, Express.js, MySQL, PostgreSQL, MongoDB...</p>
           </div>
 
           <div className="skill-title-container flex-skill">
-            <h3 className="ui-title">UI Design</h3>
+            <h3 className="cloud-title">Cloud computing(AWS)</h3>
 
             <div className="percent-box">
-              <div className="ui-percent"></div>
+              <div className="cloud-percent"></div>
             </div>
           </div>
 
           <div className="skills-info-seven flex-skill">
-            <h3 className="ui-tolls-title">Tolls</h3>
+            <h3 className="cloud-tolls-title">Some tools:</h3>
             
-            <p className="ui-tolls">Figma, Adobe PS, AI</p>
+            <p className="cloud-tolls">EC2, S3 storage, RDS, Route 53, Elastic Beanstalk...</p>
           </div>
 
           <div>

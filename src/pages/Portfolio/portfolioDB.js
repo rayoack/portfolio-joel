@@ -5,8 +5,24 @@ import gitcompareImg from '../../assets/projects/gitcompare.png';
 import flexblogImg from '../../assets/projects/flexblog.png';
 import instagramImg from '../../assets/projects/instagram-front.png';
 import apiImg from '../../assets/projects/api.jpg';
+import yeepLogo2 from '../../assets/projects/yeep-logo-2.png';
+import yeepLogo1 from '../../assets/projects/yeep-logo-1.png';
 
 const portfolioDB = [
+  {
+    title: "Yeep mobile",
+    description: "Mobile version of the yeep app, which is an event management app.",
+    techs: "React Native, Redux",
+    background: yeepLogo1,
+    link: "https://github.com/rayoack/yeep-mobile"
+  },
+  {
+    title: "Yeep API",
+    description: "Yeep application API, which is an event management application.",
+    techs: "Node.js, Express.js, AWS, PostgresSQL",
+    background: yeepLogo2,
+    link: "https://github.com/rayoack/yeep-mobile"
+  },
   {
     title: "Sextou",
     description: "Este site era uma tarefa do curso Recode Pro, e o objetivo era desenvolver um site onde você pode encontrar lugares para se divertir que estejam próximos a você",
@@ -22,6 +38,13 @@ const portfolioDB = [
     link: "https://github.com/rayoack/gitfav"
   },
   {
+    title: "Go Barber Versão 2 - API",
+    description: "Uma API de um sistema de agendamento para cortes de cabelo online utilizando Node.js e Express.",
+    techs: "Node.js, MySQL, Sequelize",
+    background: apiImg,
+    link: "https://github.com/rayoack/gobarber-v2"
+  },
+  {
     title: "Go Barber",
     description: "O objetivo era desenvolver um simples sistema de agendamento para cortes de cabelo online utilizando Node.js e Nunjucks.",
     techs: "Node.js, Express, MySQL, Nunjucks, Sequelize, Multer",
@@ -34,13 +57,6 @@ const portfolioDB = [
     techs: "React.js, Styled Components, Axios",
     background: gitcompareImg,
     link: "https://github.com/rayoack/git-compare"
-  },
-  {
-    title: "Go Barber Versão 2",
-    description: "Uma API de um sistema de agendamento para cortes de cabelo online utilizando Node.js e Express.",
-    techs: "Node.js, MySQL, Sequelize",
-    background: apiImg,
-    link: "https://github.com/rayoack/gobarber-v2"
   },
   {
     title: "FlexBlog",
